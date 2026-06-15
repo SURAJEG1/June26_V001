@@ -1,0 +1,1 @@
+{"uuid":"84a29b3f-cde7-4a17-8924-1e50bde48eb7","name":"june10_TestNG.MouseHoverAndKeyBoardActions","children":["a135205b-5447-4896-a38a-9ec819d7dcb9"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1781178598093,"stop":1781178614908}],"afters":[],"start":1781178597829,"stop":1781178632769}
