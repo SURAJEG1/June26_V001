@@ -2,24 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-15T23:47:35 IST" name="Default suite" finished-at="2026-06-15T23:48:03 IST" duration-ms="27562">
+  <suite started-at="2026-06-18T16:07:05 IST" name="Default suite" finished-at="2026-06-18T16:07:06 IST" duration-ms="799">
     <groups>
     </groups>
-    <test started-at="2026-06-15T23:47:35 IST" name="Default test" finished-at="2026-06-15T23:48:03 IST" duration-ms="27562">
-      <class name="june15_TestNG.Iframe">
-        <test-method is-config="true" signature="setup()[pri:0, instance:june15_TestNG.Iframe@68746f22]" started-at="2026-06-15T23:47:35 IST" name="setup" finished-at="2026-06-15T23:47:51 IST" duration-ms="15687" status="PASS">
+    <test started-at="2026-06-18T16:07:05 IST" name="Default test" finished-at="2026-06-18T16:07:06 IST" duration-ms="799">
+      <class name="june18_TestNG.JavaPrograms">
+        <test-method signature="reverseString()[pri:0, instance:june18_TestNG.JavaPrograms@37313c65]" started-at="2026-06-18T16:07:05 IST" name="reverseString" finished-at="2026-06-18T16:07:06 IST" duration-ms="374" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="iframe()[pri:0, instance:june15_TestNG.Iframe@68746f22]" started-at="2026-06-15T23:47:51 IST" name="iframe" finished-at="2026-06-15T23:48:02 IST" duration-ms="10865" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- iframe -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:june15_TestNG.Iframe@68746f22]" started-at="2026-06-15T23:48:02 IST" name="tearDown" finished-at="2026-06-15T23:48:03 IST" duration-ms="670" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- june15_TestNG.Iframe -->
+        </test-method> <!-- reverseString -->
+      </class> <!-- june18_TestNG.JavaPrograms -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
