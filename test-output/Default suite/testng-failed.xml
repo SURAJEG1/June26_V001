@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="june26_TestNG.DynamicSearchAndListDropdown">
+      <class name="june28_TestNG.MouseHoverOverAction">
         <methods>
-          <include name="setup"/>
+          <include name="windowHandles"/>
           <include name="tearDown"/>
-          <include name="dynamicSearchAndListDropdown"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- june26_TestNG.DynamicSearchAndListDropdown -->
+      </class> <!-- june28_TestNG.MouseHoverOverAction -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
