@@ -1,0 +1,74 @@
+package june29_TestNG;
+
+import java.time.Duration;
+import java.util.Iterator;
+import java.util.Set;
+
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.remote.service.DriverCommandExecutor;
+
+public class ReusableMethods {
+	
+	
+	WebDriver driver;
+	public ReusableMethods(WebDriver driver) 
+	{
+		this.driver = driver;
+	}
+	
+	
+	
+	
+	
+	public void maximized() 
+	{
+		driver.manage().window().maximize();
+	}
+	
+	public void impWait(int wait) 
+	{
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(wait));
+	}
+	
+	
+	public void pageScrollDown() 
+	{
+		JavascriptExecutor js = (JavascriptExecutor)driver;
+		js.executeScript("window.scrollBy(0,document.body.scrollHeight)");
+	}
+	
+	
+	public void windowHandles() 
+	{
+		Set<String> window = driver.getWindowHandles();
+		Iterator<String> it = window.iterator();
+		
+		
+		String parent = it.next();
+		String child = it.next();
+		
+		driver.switchTo().window(parent);
+		System.out.println(driver.getTitle());
+		
+		driver.switchTo().window(child);
+		System.out.println(driver.getTitle());
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+}
